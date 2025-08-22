@@ -1,0 +1,93 @@
+body{
+    margin-left: 35%;
+    text-align: center;
+    height: 150vh;
+    background-color: wheat;
+    font-family: Arial,sans-serif;
+}
+
+#heaDing{
+    font-size: 50px;
+    color: brown;
+    font-family: Arial,sans-serif;
+    max-width: 500px;
+    right: 50vh;
+}
+
+#lin{
+    height: 30px;
+    font-size: large;
+}
+
+button{
+    width: 105px;
+    height: 105px;
+    border-radius: 50px ;
+    border: none;
+    background-color: hsl(0, 0%, 16%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointor;
+}
+
+#valueD{
+    height: 100px;
+    color: antiquewhite;
+    width: 495px;
+    font-size: 5rem;
+    text-align: right;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+
+}
+
+#ansval{
+    height: 100px;
+    color: antiquewhite;
+    width: 495px;
+    font-size: 3rem;
+    text-align: right;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+
+}
+
+#calculator{
+    font-family: Arial,sans-serif;
+    background-color:hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.operatorbtn{
+    background-color: hsl(35, 100%, 55%);
+}
+
+.operatorbtn:hover{
+    background-color: hsl(35, 100%, 75%);
+}
+
+.reset{
+    background-color: hsl(0, 51%, 34%);
+}
+
+.reset:hover{
+    background-color: hsl(0, 51%, 54%);
+}
